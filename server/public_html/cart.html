@@ -1,0 +1,31 @@
+﻿<!-- Author: Sam Tucker -->
+<!-- Html page for the user to view their cart and purchase the items in it -->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/cart_style.css">
+</head>
+<body>
+    <div class="topBar">
+        <a href="index.html?acc=" class="homeLink">eShop</a>
+        <div id="balanceDisplay">Your Balance: $0</div>
+    </div>
+
+    <div class="content" id="cartContent">
+        <div class="item">
+            <div class="row" id="name">Item:</div>
+            <div class="row" id="price">Price:</div>
+            <div class="row" id="seller">Seller:</div>
+            <div class="row" id="description">Description:</div>
+            <button class="row" id="removeFromCart">Remove From Cart</button>
+        </div>
+
+        <button id="buy">Buy All</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

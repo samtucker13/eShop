@@ -1,0 +1,36 @@
+﻿<!-- Author: Sam Tucker -->
+<!-- Page for the user to upload an item to the marketplace -->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Post Item</title>
+    <link rel="stylesheet" href="css/post_style.css">
+</head>
+<body>
+    <div class="topBar">
+        <a href="index.html?acc=" class="homeLink">eShop</a>
+    </div>
+
+    <div class="content">
+        <form id="itemForm">
+            <div class="form-group">
+                <label for="nameInput">Set Item Name:</label>
+                <input type="text" id="nameInput" name="nameInput" required>
+            </div>
+            <div class="form-group">
+                <label for="priceInput">Set Item Price:</label>
+                <input type="number" id="priceInput" name="priceInput" required>
+            </div>
+            <div class="form-group">
+                <label for="descInput">Set Item Description:</label>
+                <textarea id="descInput" name="descInput" rows="5" cols="40" maxlength="500" required></textarea>
+            </div>
+            <button type="button" id="submitButton">Post</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

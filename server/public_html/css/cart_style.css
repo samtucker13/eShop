@@ -1,0 +1,61 @@
+﻿/* 
+    Author: Sam Tucker
+    Purpose: Provides styling for the cart page
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topBar {
+    height: 20vh;
+    width: 100%;
+    background-color: lightsalmon;
+    font-size: 64px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#balanceDisplay {
+    font-size: 40px;
+}
+
+.content {
+    background-color: lightblue;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.item {
+    background-color: lightgreen;
+    height: 400px;
+    width: 400px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#buy {
+    font-size: 40px;
+    width: 200px;
+    height: 80px;
+}

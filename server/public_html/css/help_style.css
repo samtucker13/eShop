@@ -1,0 +1,32 @@
+﻿/* 
+    Author: Sam Tucker
+    Purpose: Provides styling for the help page
+*/
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topBar {
+    height: 20%;
+    width: 100%;
+    background-color: lightsalmon;
+    font-size: 64px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
